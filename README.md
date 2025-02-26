@@ -1,5 +1,5 @@
-# Pre-Bootcamp-public
-### Html assignments
+# Web fundamentals assignments
+### Html section
 
    - [*Ninja*](https://html-preview.github.io/?url=https://github.com/ahmadlatif1/Pre-Bootcamp-public/blob/main/ninja/ninja.html) 
    - [*Indentation*](https://github.com/ahmadlatif1/web-fund-indentation-) edited fork
