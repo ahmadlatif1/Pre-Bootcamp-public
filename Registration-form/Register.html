@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <style>
+        body {
+            padding-left: 30px;
+        }
+
+        input {
+            margin: 5px;
+        }
+
+        #info {
+            min-width: 300px;
+            min-height: 40px;
+        }
+    </style>
 </head>
-<style>
-    body{
-        padding-left: 30px;
-    }
-    input{
-        margin: 5px;
-    }
-    #info{
-        min-width: 300px;
-        min-height: 40px;
-    }
-</style>
+
 <body>
+
 
     <form>
         <h1>Registration Form</h1>
-        <label for="First Name"> First Name: *</label>
-        <input required type="text" id="First Name"> <br>
+        <label for="FirstName"> First Name: *</label>
+        <input required type="text" id="FirstName"> <br>
 
-        <label for="Last Name">Last Name: *</label>
-        <input required type="text" id="Last Name"><br>
+        <label for="LastName">Last Name: *</label>
+        <input required type="text" id="LastName"><br>
 
         <label for="Email">Email: *</label>
-        <input required type="email"id="Email"><br>
+        <input required type="email" id="Email"><br>
 
         <label for="password">Password: *</label>
         <input required type="password" id="password"><br>
@@ -37,22 +42,22 @@
         <input required type="password" id="confirmpass"><br>
 
         <label for="date">Birthday:</label>
-        <input type="date"id="date"><br>
+        <input type="date" id="date"><br>
 
         <label for="male">Gender:</label><br>
 
         <label for="male">Male:</label>
-        <input type="radio"id="male" name="pick">
+        <input type="radio" id="male" name="pick">
         <label for="female">Female:</label>
-        <input type="radio"id="female" name="pick">
+        <input type="radio" id="female" name="pick">
         <label for="nonbinary">Non-Binary:</label>
-        <input type="radio"id="nonbinary" name="pick">
+        <input type="radio" id="nonbinary" name="pick">
         <label for="refuse">Prefer not to say:</label>
-        <input type="radio"id="refuse" name="pick">
+        <input type="radio" id="refuse" name="pick">
         <br>
 
         <label for="info">A short description about myself: </label> <br>
-        <input type="text"id="info"><br>
+        <input type="text" id="info"><br>
 
         <label for="favlang">Favorite Language: </label>
         <select id="favlang">
@@ -69,7 +74,7 @@
         </select>
         <br>
 
-        <input type="checkbox"id="newsletter">
+        <input type="checkbox" id="newsletter">
         <label for="newsletter">Yes i would like to receive periodic email updates</label>
         <br>
 
@@ -79,5 +84,11 @@
         <span>* indicates a required field</span>
 
     </form>
+
+
+
 </body>
+
+
+
 </html>
